@@ -1,0 +1,15 @@
+{
+  "name": "iNFT Coin",
+  "symbol": "INFT",
+  "decimals": 8,
+  "total": 100000000,
+  "Liquidity": 1500000,
+  "taxFee": 4,
+  "liquidityFee": 6,
+  "charityPercentageOfLiquidity": 50,
+  "maliciousThreshold": 10,
+  "rewardThreshold": 1,
+  "maxSell": 1,
+  "maxBuy": 10000,
+  "dev": true
+}

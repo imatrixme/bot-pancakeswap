@@ -6,13 +6,15 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "snipe" : "node bot.js"
+    "snipe": "node bot.js",
+    "onekey": "node onekey/onekey.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
     "ethers": "^5.1.4",
     "express": "^4.17.1"
   }

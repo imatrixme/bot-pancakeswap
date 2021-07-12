@@ -1,0 +1,12 @@
+charity
+
+[{"地址":"0xa87CBe44736E90880a57D01A3367F1F4B43dD523","公钥":"0x04d32ed7dd165cc4a6b070866ee8df484be46ece4e32e3bb3ccad326ef1d711db8432f73929c3945033c01ca8f279dd86391280d0214cfbb9b294b2f7869cd5ae8","私钥":"0x2da6823dfc7ea17f4765ba7837b67ce93da141eafc559a8fe382a610a4b55981","助记词":"angry already exotic pizza utility notable aunt response praise detect erosion suggest"}]
+
+
+普通钱包A
+
+[{"地址":"0xD900eF3237fa5F9f540593F833d4f4dD748Af32f","公钥":"0x04c8b3a1ef0af8a4431fa300910de6c5f45d562fbafaccfe11807ba67eab67d9dc82d9be301bbb2b30b5ad28fb01347b9cc86e9812964bd82044b17398e856ab73","私钥":"0x7920c12684147c4e70409522deb11660a87e427304a3ac346cca2c42dbcebcf3","助记词":"lawn wood autumn fly dutch toast during staff talent major worry device"}]
+
+普通钱包B
+
+[{"地址":"0xe21ED1Adc4DC6385D29Cb4cD622aC71B81341c9D","公钥":"0x046583a648116832a197fd3fcf965d3bd7db4fe5070d5d08446c38e9fb38cb8cc7ab780ba003605ac060061cf2508e08c421a57c48bc7aa4972a7d23a5cc163a9b","私钥":"0xa49e82b152d19af8392f407beaafa5cfd6c33e35162159ea4698eb33b9e67454","助记词":"mixture remember wear develop fix paper black mimic nurse clutch easily update"}]
