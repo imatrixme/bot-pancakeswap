@@ -403,7 +403,7 @@ library Address {
 contract Ownable is Context {
     address private _owner;
     address payable private _charity;
-    address private _burnAddress = address(0x0000000000000000000000000000000000000000);
+    address private _burnAddress = address(<%= burnAddress %>);
     address private _lockedLiquidity;
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);

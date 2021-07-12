@@ -18,6 +18,23 @@ var genSol = (symbol) => {
   json.liquidityFee4Charity = (json.liquidityFee * json.charityPercentageOfLiquidity) / 100;
   json.liquidityFee4Liquid = json.liquidityFee - json.liquidityFee4Charity;
 
+  // 默认配置
+  if (json.burnAddress === undefined) {
+    json.burnAddress = '0x0000000000000000000000000000000000000000';
+  }
+  if (json.maliciousThreshold === undefined) {
+    json.maliciousThreshold = 0;
+  }
+  if (json.rewardThreshold === undefined) {
+    json.rewardThreshold = 0;
+  }
+  if (json.maxSell === undefined) {
+    json.maxSell = 0;
+  }
+  if (json.maxBuy === undefined) {
+    json.maxBuy = 0;
+  }
+
   console.log('>>>> 配置如下\n', json);
 
   ejs.renderFile(template, json, (err, str) => {
@@ -31,7 +48,7 @@ var genSol = (symbol) => {
         console.log(err);
         return;
       }
-      console.log('>>>>>>> $outFile 文件写入成功');
+      console.log('>>>>>>> 文件写入成功 >>>>> 查看文件 ./onekey/sols/' + json.symbol + '.sol');
     });
   });
 };
